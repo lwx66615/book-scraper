@@ -1,0 +1,28 @@
+[
+  {
+    "site_name": "起点中文网",
+    "site_url": "qidian.com",
+    "rule_type": "generic",
+    "is_active": true,
+    "requires_js": true,
+    "selectors": {
+      "book_title": "h1#bookName",
+      "book_author": ".writer",
+      "chapter_list": "#j-catalogWrap .cf a",
+      "chapter_content": ".read-content"
+    }
+  },
+  {
+    "site_name": "纵横中文网",
+    "site_url": "zongheng.com",
+    "rule_type": "generic",
+    "is_active": true,
+    "requires_js": false,
+    "selectors": {
+      "book_title": ".book-name",
+      "book_author": ".au-name a",
+      "chapter_list": ".chapter-list a",
+      "chapter_content": ".content"
+    }
+  }
+]
